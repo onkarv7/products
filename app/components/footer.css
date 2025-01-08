@@ -177,3 +177,14 @@ small {
     gap: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  
+}
+

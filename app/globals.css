@@ -163,7 +163,16 @@ a {
   padding: 5px;
 }
 
-
+@media (max-width: 1000px) {
+  .search-icon{
+    display: none;
+  
+    }
+    .logo-container {
+      margin-left:  -50%;
+  
+    }
+}
 
 @media (max-width: 720px) {
   .header-section {
@@ -172,10 +181,7 @@ a {
     /* max-width: 240px; */
 
   }
-  .search-icon{
-  display: none;
 
-  }
   .logo {
     /* font-family: Inter; */
     font-size: 26px;
@@ -183,11 +189,12 @@ a {
   }
   .nav-links li {
     /* font-family: Simplon Norm; */
-    font-size: 14px;
-   
+    font-size: 10px;
+ 
     margin-top: 0.7rem;
   }
   .logo-container {
-    margin-right: 0%;
+    margin-left:  -30%;
+
   }
 }

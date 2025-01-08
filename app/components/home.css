@@ -198,5 +198,8 @@
     align-items: center;
 
   }
+  .lorem{
+    width: 100px;
+  }
 
 }

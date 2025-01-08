@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <>
     <div className="lorem-section">
-    <Image alt="lorem" src={lorem} width={150} height={20} />
-    <Image alt="lorem" src={lorem} width={150} height={20} /> 
-    <Image alt="lorem" src={lorem} width={150} height={20} />
+    <Image alt="lorem" className="lorem" src={lorem} width={150} height={20} />
+    <Image alt="lorem" className="lorem" src={lorem} width={150} height={20} /> 
+    <Image alt="lorem" className="lorem" src={lorem} width={150} height={20} />
 
     </div>
     <header className="header-container">
