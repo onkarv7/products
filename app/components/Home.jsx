@@ -18,6 +18,16 @@ export default function Home({ products }) {
     <>
       {" "}
       <Header />{" "}
+
+<div className="hero-section">
+  <h1 className="hero-title">
+  Discover our products
+  </h1>
+  <h4 className="hero-subtitle">Lorem ipsum dolor sit amet consectetur. Amet est posuere rhoncus scelerisque.
+  <br /> Dolor integer scelerisque nibh amet mi ut elementum dolor.</h4>
+</div>
+
+
       <div className="recommended-section">
         <div className="filter-section">
           {products.length} Items

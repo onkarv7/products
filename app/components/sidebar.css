@@ -111,3 +111,13 @@
     gap: 4rem;
   }
 
+
+  /* hero */
+  .hero-section{
+    text-align: center;
+  }
+
+  .hero-subtitle{
+
+    text-align: center;
+  }
