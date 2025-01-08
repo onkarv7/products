@@ -150,20 +150,20 @@ small {
   .footer {
     padding: 10px 10px;
   }
-  .newsletter-input input {
+  /* .newsletter-input input {
     padding: 0px 0px;
-  }
+  } */
   .newsletter-input {
     gap: 5px;
     display: flex;
     flex-direction: column;
   }
 
-  .newsletter-input button {
+  /* .newsletter-input button {
     padding: 0px 0px;
 
     font-size: 12px;
-  }
+  } */
 
   .footer-column {
     font-size: 12px;
