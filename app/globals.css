@@ -181,6 +181,7 @@ a {
   .logo {
     /* font-family: Inter; */
     font-size: 26px;
+    margin-left: 0%;
   }
   .nav-links li {
     /* font-family: Simplon Norm; */
@@ -189,7 +190,7 @@ a {
     margin-top: 0.7rem;
   }
   .logo-container {
-    margin-left: -30%;
+    margin-left: 0%;
   }
   .search-icon {
     display: none;
