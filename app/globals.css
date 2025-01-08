@@ -32,8 +32,6 @@ ul {
   width: 20%;
 }
 
-
-
 .product-title {
   font-family: Simplon Norm;
   font-size: 18px;
@@ -112,10 +110,11 @@ ul {
 }
 
 .header-container {
-  background-color: whitesmoke;
+  background-color: rgba(229, 229, 229, 0.2);
   color: white;
   padding: 1rem 0;
   text-align: center;
+  border-bottom: 0.4px solid #ccc;
 }
 
 .head-subcontainer {
@@ -164,14 +163,12 @@ a {
 }
 
 @media (max-width: 1000px) {
-  .search-icon{
+  .search-icon {
     display: none;
-  
-    }
-    .logo-container {
-      margin-left:  -50%;
-  
-    }
+  }
+  .logo-container {
+    margin-left: -50%;
+  }
 }
 
 @media (max-width: 720px) {
@@ -179,22 +176,19 @@ a {
     display: flex;
     justify-content: space-around;
     /* max-width: 240px; */
-
   }
 
   .logo {
     /* font-family: Inter; */
     font-size: 26px;
-  
   }
   .nav-links li {
     /* font-family: Simplon Norm; */
     font-size: 10px;
- 
+
     margin-top: 0.7rem;
   }
   .logo-container {
-    margin-left:  -30%;
-
+    margin-left: -30%;
   }
 }

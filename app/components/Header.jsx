@@ -6,60 +6,78 @@ import { logo, lorem, search } from "../assets";
 const Header = () => {
   return (
     <>
-    <div className="lorem-section">
-    <Image alt="lorem" className="lorem" src={lorem} width={150} height={20} />
-    <Image alt="lorem" className="lorem" src={lorem} width={150} height={20} /> 
-    <Image alt="lorem" className="lorem" src={lorem} width={150} height={20} />
-
-    </div>
-    <header className="header-container">
-      <div className="head-subcontainer">
-        <div className="header-section">
-        
-          <Image alt="logo" src={logo} width={30} height={30} />
-
-          <div className="logo-container">
-          <Link legacyBehavior href="/">
-            <a className="logo">LOGO</a>
-          </Link>
-          <nav>
-          <ul className="nav-links">
-            <li>
-              <Link legacyBehavior href="/">
-                <a>Shop</a>
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/">
-                <a>Skills</a>
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/">
-                <a>Stories</a>
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/about">
-                <a>About</a>
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/contact">
-                <a>Contact Us</a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-
-          </div>
-       
-
-          <Image alt="search" className="search-icon" src={search} width={300} height={30} />
-        </div>
-     
+      <div className="lorem-section">
+        <Image
+          alt="lorem"
+          className="lorem"
+          src={lorem}
+          width={150}
+          height={20}
+        />
+        <Image
+          alt="lorem"
+          className="lorem"
+          src={lorem}
+          width={150}
+          height={20}
+        />
+        <Image
+          alt="lorem"
+          className="lorem"
+          src={lorem}
+          width={150}
+          height={20}
+        />
       </div>
-    </header>
+      <header className="header-container">
+        <div className="head-subcontainer">
+          <div className="header-section">
+            <Image alt="logo" src={logo} width={30} height={30} />
+
+            <div className="logo-container">
+              <Link legacyBehavior href="/">
+                <a className="logo">LOGO</a>
+              </Link>
+              <nav>
+                <ul className="nav-links">
+                  <li>
+                    <Link legacyBehavior href="/">
+                      <a>Shop</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="/">
+                      <a>Skills</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="/">
+                      <a>Stories</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="/about">
+                      <a>About</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link legacyBehavior href="/contact">
+                      <a>Contact Us</a>
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <Image
+              alt="search"
+              className="search-icon"
+              src={search}
+              width={300}
+              height={30}
+            />
+          </div>
+        </div>
+      </header>
     </>
   );
 };
