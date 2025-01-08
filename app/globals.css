@@ -4,11 +4,15 @@ body {
   padding: 0;
   background-color: white;
 }
+ul{
+  list-style: none;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
+
 
 .footer {
   background-color: whitesmoke;

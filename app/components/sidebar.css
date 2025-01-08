@@ -175,4 +175,8 @@
 
 
 
-/* footer */
+/* sidebar */
+.unselect-link{
+  color: gray;
+  margin-top: 10px;
+}
