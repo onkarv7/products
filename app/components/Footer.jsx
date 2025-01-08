@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="social-icons">
             {/* <span>🌐</span>
             <span>🌐</span> */}
-            <Image src={social} width={100} height={40} />
+            <Image alt="social" className="social" src={social} width={100} height={40} />
 
           </div>
           <h3>mettā muse ACCEPTS</h3>
@@ -69,7 +69,7 @@ const Footer = () => {
             <span>Visa</span>
             <span>Amex</span>
             <span>ApplePay</span> */}
-                <Image src={payments} width={350} height={30} />
+                <Image className="payments" alt="payments" src={payments} width={350} height={30} />
             
           </div>
         </div>

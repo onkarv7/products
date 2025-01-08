@@ -2,8 +2,8 @@
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
-
   padding: 30px 100px;
+  margin-top: 20px;
 }
 
 .footer-top {
@@ -88,9 +88,6 @@ hr {
 .footer-bottom {
   text-align: center;
   padding-top: 10px;
-  /* border-top: 1px solid #444; */
-  /* font-size: 14px; */
-
   display: flex;
   justify-content: center;
   font-family: Simplon Norm;
@@ -144,4 +141,39 @@ small {
 }
 .footer-column h3 {
   font-size: 20px;
+}
+
+@media (max-width: 720px) {
+  .footer-column h3 {
+    font-size: 16px;
+  }
+  .footer {
+    padding: 10px 10px;
+  }
+  .newsletter-input input {
+    padding: 0px 0px;
+  }
+  .newsletter-input {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletter-input button {
+    padding: 0px 0px;
+
+    font-size: 12px;
+  }
+
+  .footer-column {
+    font-size: 12px;
+  }
+
+  .contact-info h3 {
+    font-size: 12px;
+  }
+
+  .footer-top {
+    gap: 1rem;
+  }
 }

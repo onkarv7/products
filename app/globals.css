@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: white;
 }
-ul{
+ul {
   list-style: none;
 }
 .container {
@@ -12,7 +12,6 @@ ul{
   margin: 0 auto;
   padding: 1rem;
 }
-
 
 .footer {
   background-color: whitesmoke;
@@ -32,16 +31,8 @@ ul{
 .filter-sidebar {
   width: 20%;
 }
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  width: 80%;
-}
-.product-image {
-  width: 100%;
-  /* height: 40vh; */
-}
+
+
 
 .product-title {
   font-family: Simplon Norm;
@@ -57,7 +48,6 @@ ul{
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
-
 }
 
 .product-grid {
@@ -88,21 +78,20 @@ ul{
   transform: scale(1.001);
 }
 
-.product-price{
+.product-price {
   font-family: Simplon Norm;
-font-size: 14px;
-font-weight: 400;
-line-height: 16.8px;
-text-align: left;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-cursor: pointer;
-
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  cursor: pointer;
 }
 
-.price-container{
+.price-container {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -130,10 +119,7 @@ cursor: pointer;
 }
 
 .head-subcontainer {
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
   padding: 1rem;
-  /* width: 100%; */
 }
 .logo-container {
   margin-left: 18%;
@@ -175,4 +161,33 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 5px;
+}
+
+
+
+@media (max-width: 720px) {
+  .header-section {
+    display: flex;
+    justify-content: space-around;
+    /* max-width: 240px; */
+
+  }
+  .search-icon{
+  display: none;
+
+  }
+  .logo {
+    /* font-family: Inter; */
+    font-size: 26px;
+  
+  }
+  .nav-links li {
+    /* font-family: Simplon Norm; */
+    font-size: 14px;
+   
+    margin-top: 0.7rem;
+  }
+  .logo-container {
+    margin-right: 0%;
+  }
 }

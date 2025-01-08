@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import Image from "next/image";
 import { heart } from "../assets";
 const ProductCard = ({ product }) => {
@@ -27,11 +26,10 @@ const ProductCard = ({ product }) => {
         {/* ${product.price}{" "} */}
         Sign in or Create an account to see pricing
       </p>{" "}
-       <Image src={heart} width={20} height={20} />
+       <Image alt="heart" src={heart} width={20} height={20} />
       </div>
     
-      {/* <Button className="add-to-cart-button">Add to Cart</Button>{" "} */}
-    </article>
+\    </article>
   );
 };
 export default ProductCard;

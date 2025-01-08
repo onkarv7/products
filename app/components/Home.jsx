@@ -1,20 +1,42 @@
 "use client";
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import { generateStructuredData } from "../utils/seoHelpers";
 import FilterSidebar from "./FilterSidebar";
 import Footer from "./Footer";
 import Header from "./Header";
 import ProductGrid from "./ProductGrid";
 import SidebarLayout from "./SidebarLayout";
-import "./sidebar.css";
+import "./home.css";
 import Image from "next/image";
 import { arrow } from "../assets";
 export default function Home({ products }) {
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   console.log("products", products);
+
+  const [isMobile, setIsMobile] = useState(false);
+
+
+  
   const toggleSidebar = () => {
     setSidebarVisible(!isSidebarVisible);
   };
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 720) {
+        setIsMobile(true);
+        setSidebarVisible(false); 
+      } else {
+        setIsMobile(false);
+        setSidebarVisible(true); 
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); 
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
 
   return (
     <>
@@ -32,7 +54,7 @@ export default function Home({ products }) {
         <div className="filter-section">
           {products.length} Items
           <div className="toggle-sidebar" onClick={toggleSidebar}>
-            <Image src={arrow} width={20} height={10} />
+            <Image alt="arrow" src={arrow} width={20} height={10} />
             {isSidebarVisible ? "Hide Filters" : "Show Filters"}
           </div>
         </div>

@@ -7,15 +7,16 @@ const Header = () => {
   return (
     <>
     <div className="lorem-section">
-    <Image src={lorem} width={150} height={20} />
-    <Image src={lorem} width={150} height={20} /> <Image src={lorem} width={150} height={20} />
+    <Image alt="lorem" src={lorem} width={150} height={20} />
+    <Image alt="lorem" src={lorem} width={150} height={20} /> 
+    <Image alt="lorem" src={lorem} width={150} height={20} />
 
     </div>
     <header className="header-container">
       <div className="head-subcontainer">
         <div className="header-section">
         
-          <Image src={logo} width={30} height={30} />
+          <Image alt="logo" src={logo} width={30} height={30} />
 
           <div className="logo-container">
           <Link legacyBehavior href="/">
@@ -54,7 +55,7 @@ const Header = () => {
           </div>
        
 
-          <Image src={search} width={300} height={30} />
+          <Image alt="search" className="search-icon" src={search} width={300} height={30} />
         </div>
      
       </div>
