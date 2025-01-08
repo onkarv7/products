@@ -34,3 +34,7 @@ body {
   gap: 1rem;
   width: 80%;
 }
+.product-image{
+  width: 100%;
+  height: auto;
+}

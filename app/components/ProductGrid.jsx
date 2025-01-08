@@ -1,9 +1,17 @@
-import React from 'react'
-
-const ProductGrid = () => {
+import React from "react";
+import ProductCard from "./ProductCard";
+const ProductGrid = ({ products }) => {
   return (
-    <div>ProductGrid</div>
-  )
-}
-
-export default ProductGrid
+    <section className="product-grid">
+      {" "}
+      {products.length ? (
+        products.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))
+      ) : (
+        <p>No products available</p>
+      )}{" "}
+    </section>
+  );
+};
+export default ProductGrid;
