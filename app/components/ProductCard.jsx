@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Image from "next/image";
+import { heart } from "../assets";
 const ProductCard = ({ product }) => {
   return (
     <article
@@ -18,11 +20,17 @@ const ProductCard = ({ product }) => {
         {" "}
         {product.title}{" "}
       </h3>{" "}
+
+      <div className="price-container">
       <p itemProp="price" className="product-price">
         {" "}
-        ${product.price}{" "}
+        {/* ${product.price}{" "} */}
+        Sign in or Create an account to see pricing
       </p>{" "}
-      <Button className="add-to-cart-button">Add to Cart</Button>{" "}
+       <Image src={heart} width={20} height={20} />
+      </div>
+    
+      {/* <Button className="add-to-cart-button">Add to Cart</Button>{" "} */}
     </article>
   );
 };
