@@ -162,7 +162,7 @@ a {
   padding: 5px;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 720px) and (max-width: 1000px) {
   .search-icon {
     display: none;
   }
@@ -190,5 +190,8 @@ a {
   }
   .logo-container {
     margin-left: -30%;
+  }
+  .search-icon {
+    display: none;
   }
 }
