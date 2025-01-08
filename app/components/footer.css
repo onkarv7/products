@@ -1,85 +1,150 @@
 .footer {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+
+  padding: 30px 100px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.newsletter h3,
+.contact-info h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.newsletter-input {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.newsletter-input input {
+  padding: 10px 40px;
+  flex: 1;
+  border: none;
+}
+
+.newsletter-input button {
+  padding: 10px 20px;
+  /* background-color: white; */
+
+  cursor: pointer;
+color: azure;
+
+
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: #000000;
+
+  border: 0.1px solid #ffff ;
   
-  .footer-top {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-  }
-  
-  .newsletter h3,
-  .contact-info h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .newsletter-input {
-    display: flex;
-    margin-top: 10px;
-  }
-  
-  .newsletter-input input {
-    padding: 10px;
-    flex: 1;
-    border: none;
-  }
-  
-  .newsletter-input button {
-    padding: 10px;
-    background-color: white;
-    color: black;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .contact-info p {
-    margin: 5px 0;
-  }
-  
-  hr {
-    border-color: #444;
-  }
-  
-  .footer-links {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-  }
-  
-  .footer-column h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-column ul li {
-    margin: 5px 0;
-  }
-  
-  .social-icons span {
-    margin-right: 10px;
-  }
-  
-  .payment-icons span {
-    margin-right: 10px;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    padding-top: 10px;
-    border-top: 1px solid #444;
-    font-size: 14px;
-  }
-  
-  .flag {
-    margin-right: 5px;
-  }
-  
+} 
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+hr {
+  border-color: #444;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.social-icons span {
+  margin-right: 10px;
+}
+
+.payment-icons span {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  /* border-top: 1px solid #444; */
+  /* font-size: 14px; */
+
+  display: flex;
+  justify-content: center;
+  font-family: Simplon Norm;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.flag {
+  margin-right: 5px;
+}
+
+h3 {
+  font-family: Simplon Norm;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: start;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+p {
+  font-family: Simplon Norm;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+small {
+  margin-top: 1rem;
+  font-family: Simplon Norm;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}
+
+.footer-column {
+  font-family: Simplon Norm;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.footer-column h3 {
+  font-size: 20px;
+}
+
